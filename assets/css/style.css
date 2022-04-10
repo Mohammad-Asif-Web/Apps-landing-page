@@ -1,0 +1,180 @@
+/*----------------------------------------------------------------------------------
+
+	Template Name: Apps Landing Blog Website
+	Template URL: "Demo Live server here"
+	Description: Blog website for Multiple pages
+	Author: Muhammad Asif
+	Author URL: https://www.muhammadasif10.blogspot.com
+	License: MIT LICENSE 
+	Version: 
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+	3. Getting Started
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+-----------------------------------------------------------------------------------*/
+
+
+/************** 1. Typography ************************/
+*,
+*::after,
+*::before{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+a, 
+p,
+ul{
+	margin: 0;
+}
+p{
+	/* color: #848789; */
+	line-height: 30px;
+}
+
+body{
+	scroll-behavior: smooth;
+}
+
+/* Nav Bar section Start */
+/* Nav Bar section End */
+
+
+
+
+
+
+/* Hero section Start */
+/* Hero section End */
+
+
+
+
+
+
+/* Why use this app section Start */
+/* Why use this app section End */
+
+
+
+
+
+
+/* Awesome apps features Start */
+/* Awesome apps features End */
+
+
+
+
+
+
+/* Apps screenshots Start */
+/* Apps screenshots End */
+
+
+
+
+
+
+
+/* How does this app work Start */
+/* How does this app work End */
+
+
+
+
+
+
+
+/* Easy Pricing plan Start */
+/* Easy Pricing plan End */
+
+
+
+
+
+
+/* Latest story Start */
+/* Latest story End */
+
+
+
+
+
+
+/* Footer section Start */
+/* Footer section End */
+
+
+
+
+/* ===========Blog Page Details========= */
+
+/* banner -- Read from our blogs Start */
+/* banner -- Read from our blogs End */
+
+
+
+
+
+
+
+/* Blog Posts Section Start */
+/* Blog Posts Section End */
+
+
+
+
+
+/* Footer section Start */
+/* Footer section End */
+
+
+
+
+/* =============Blog Post=============== */
+
+/* Our Blog Details Start */
+/* Our Blog Details End */
+
+
+
+
+
+
+/* blog single post start */
+/* blog single post end */
+
+
+
+
+
+/* Related Post + Comments start */
+/* Related Post + Comments end */
+
+
+
+
+
+
+
+/* Footer section Start */
+/* Footer section End */
+
+
+
