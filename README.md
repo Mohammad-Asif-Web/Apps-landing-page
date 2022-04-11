@@ -36,9 +36,10 @@ This is a specification for recognizing contributors to our group presentation p
 # How to contribute
 ## 1. Fork the repository
 <br>
-<p>
-<img src="images/fork.png" width="100%">
-</p>
+
+<img align="right" src="images/fork.png" width="100%" alt="fork this repository" />
+<!-- <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/clone.png" alt="clone this repository" /> -->
+
 
 ## 2. Clone your repository
 
