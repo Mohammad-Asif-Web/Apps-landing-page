@@ -17,7 +17,8 @@ AppSperia is a clean and creative Landing Page Template for Mobile App. This lan
 
 
 ## About us
-We are the PHP with Laravel Batch-2 group from the basis seip.
+We are the students of  PHP with Laravel Batch-2 group from the BASIS SEIP PROJECT.
+
 This is a specification for recognizing contributors to our group presentation projects in a way that rewards each and every contribution, not just code.so we believe everyone should be praised for their contributions (code or not).
 
 ## Contributors
@@ -86,15 +87,15 @@ git push origin master
 
 <br>
 <p align="center">
-<img src="images/pull.png" width="40%" height="220px">
-<img src="images/pull2.png" width="40%" height="220px">
+<img src="./images/pull.jpg" width="40%" height="220px" alt="pull one image">
+<img src="./images/pull2.jpg" width="40%" height="220px" alt="pull two image">
 <p>
 
 ## Now submit the pull request
 
 <br>
 <p align="center">
-<img src="images/pull3.png" width="40%" height="220px">
+<img src="./images/pull3.jpg" width="40%" height="220px" alt="pull three image">
 <p>
 
 ### Soon I'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
