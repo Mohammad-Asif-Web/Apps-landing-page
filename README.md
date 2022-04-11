@@ -27,7 +27,7 @@ This is a specification for recognizing contributors to our group presentation p
 - [Zubair Ahmed](https://github.com/zubair-uap)
 - [Md Sanowar]()
 - [Omar Faruk]()
-- [Sadia Haque]()
+- [Sadia Haque](https://github.com/SadiaHaque207)
 - [Md Lutfur Rahman Jelany](https://github.com/mdlutfurrahmanjelany)
 
 
