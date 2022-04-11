@@ -37,7 +37,7 @@ This is a specification for recognizing contributors to our group presentation p
 ## 1. Fork the repository
 <br>
 
-<img align="right" src="images/fork.png" width="100%" alt="fork this repository" />
+<img align="right" src="./images/fork.jpg" width="100%" alt="fork this repository" />
 <!-- <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/clone.png" alt="clone this repository" /> -->
 
 
@@ -49,8 +49,9 @@ $ git clone https://github.com/Mohammad-Asif-Web/Apps-landing-page.git
 ````
 
 <p align="center">
-<img src="images/clone.png" width="80%">
+<img src="./images/clone.jpg" width="80%" alt="clone this repository">
 </p>
+<!-- <img src="./assets/img/img.jpg" width="100%">   -->
 
 
 ### When you are done with your work, now its time to add the changes to the branch
