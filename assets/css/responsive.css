@@ -1,0 +1,111 @@
+/*Blog Post Responsive Start*/
+.custom-width{
+	width: 990px;
+}
+.right-sidebar .recent-post h4,
+.right-sidebar .categories h4,
+.tags h4{
+	position: relative;
+}
+.right-sidebar .recent-post h4::after{
+  content: '';
+  display: block;
+  clear: both;
+  border-bottom: 1px solid #3CBCED;
+  position: absolute;
+  top: 78%;
+  left: 35%;
+  height: 1px;
+  width: 64%;
+}
+.right-sidebar .categories h4::after{
+   content: '';
+  display: block;
+  clear: both;
+  border-bottom: 1px solid #3CBCED;
+  position: absolute;
+  top: 88%;
+  left: 27%;
+  height: 1px;
+  width: 72%;
+}
+.tags h4::after{
+   content: '';
+  display: block;
+  clear: both;
+  border-bottom: 1px solid #3CBCED;
+  position: absolute;
+  top: 88%;
+  left: 13%;
+  height: 1px;
+  width: 86%;
+}
+@media all and (max-width: 768px){
+	.custom-width{
+		width: inherit;
+	}
+	.right-sidebar .recent-post h4::after{
+		left: 20% !important;
+		width: 80% !important;
+		top: 82% !important;
+	}
+	.right-sidebar .categories h4::after{
+		left: 15% !important;
+		width: 85% !important;
+	}
+	.tags h4::after{
+		left: 8% !important;
+		width: 92% !important;	
+	}
+	.blog-post .card .paragraph{
+		font-size: 14px;
+		line-height: 28px;
+	}
+	.pagination{
+		justify-content: center !important;
+	}
+}
+@media all and (max-width: 988px){
+	.margin{
+		margin-top: 50px;
+	}
+	.right-sidebar .recent-post h4::after{
+		left: 16%;
+		width: 84%;
+	}
+	.right-sidebar .categories h4::after{
+		left: 11%;
+		width: 89%;
+	}
+	.tags h4::after{
+		left: 5%;
+		width: 95%;
+	}
+}
+@media all and (max-width: 384px){
+	.right-sidebar .recent-post h4::after{
+		left: 29% !important;
+		width: 71% !important;
+	}
+	.right-sidebar .categories h4::after{
+		left: 22% !important;
+		width: 78% !important;
+	}
+	.tags h4::after{
+		left: 11% !important;
+		width: 89% !important;
+	}
+	.blog-post .card .mybtn{
+		font-size: 14px !important;
+	}
+	.rob-man{
+	  padding: 0 10px;;
+	}
+	.rob-man::before{
+		width: 105%;
+	}
+	.rob-man::after{
+		width: 105%;
+	}
+}
+/*Blog Post Responsive End*/
