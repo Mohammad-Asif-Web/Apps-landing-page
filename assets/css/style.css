@@ -78,9 +78,11 @@ body{
 
 
 /* Awesome apps features Start */
-/* Awesome apps features End */
-
-
+.container-back{
+	background-image: url("images/pricing-bg.png");
+	height: 400px;
+	z-index: 999;
+}
 .awesome h2{
 	padding: 30px;
 	text-align: center;
@@ -129,12 +131,23 @@ padding: 0px 2px;
 	margin-top: 50px;
 }
 
-.vertical-row-in{
+.vertical-row-in1{
 	border: 1px solid #22499c;
 	margin-left: 20px;
 }
+.vertical-row-in2{
+	border: 1px solid #22499c;
+	margin-left: 20px;
+	display: none;
+	
+}
+.vertical-row-in3{
+	border: 1px solid #22499c;
+	margin-left: 20px;
+	display: none;
+	
+}
 .make-profile{
-
 position: absolute;
 right: 0;
 left: 40%;
@@ -151,11 +164,41 @@ margin-top: 45px;
 .make-profile p{
 	line-height: 100%;
 }
-
-
-
-/* Apps screenshots Start */
+ /* Awesome apps features End */
+ /* Apps screenshots Start */
+/* Slider CSS */
+.carousel {
+	position: relative;
+	height: 600px;
+	margin-top: 150px;
+	perspective: 1500px;
+  }
+  
+  .carousel .carousel-item {
+	width: 250px;
+  }
+  
+  .carousel .carousel-item img {
+	height: 300px;
+	max-width: 170px;
+	transform: translateX(1px) translateY(-90px);
+  }
+  
+  .mobile {
+	width: 257px;
+	height: 349px;
+	position: absolute;
+	top: 40%;
+	left: 49%;
+	transform: translate(-50%, -50%);
+	z-index: 1000,
+  }
+ 
 /* Apps screenshots End */
+
+
+
+
 
 
 
