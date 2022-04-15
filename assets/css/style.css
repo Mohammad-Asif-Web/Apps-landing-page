@@ -80,8 +80,9 @@ body{
 /* Awesome apps features Start */
 .container-back{
 	background-image: url("images/pricing-bg.png");
+	
 	height: 400px;
-	z-index: 999;
+
 }
 .awesome h2{
 	padding: 30px;
@@ -192,7 +193,7 @@ margin-top: 45px;
 	left: 49%;
 	transform: translate(-50%, -50%);
 	z-index: 1000,
-  }
+  } 
  
 /* Apps screenshots End */
 

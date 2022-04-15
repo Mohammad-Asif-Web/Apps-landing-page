@@ -1,13 +1,12 @@
+//  Awesome apps features Start
 
-// $(document).ready(function(){
-//     $('.carousel').carousel();
-// });
 var countup=0;
 var countdown=0;
 var flag=0;
 var flag1=0;
 
 jQuery(document).ready(function(){
+    // $('.carousel').carousel();})
     jQuery("#up").click(function(){
         if(flag1==1){
             flag1=2;
@@ -129,11 +128,12 @@ jQuery(document).ready(function(){
       
         }
     }
- 
- 
      })
+     
 })
 
+
+// Awesome apps features End 
 
 
 
