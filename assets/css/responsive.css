@@ -1,3 +1,4 @@
+
 /* ---Awesome app feature start--- */
 @media only screen and (max-width: 990px) {
 	.vertical-row {
@@ -62,3 +63,85 @@
 	}
   }
 /* ---Awesome app feature End--- */
+
+/* How does this app work Start */
+@media  (min-width: 1414px){
+	.bg1 img{
+	  height: 250px;
+	  width: 100%;
+
+	  position: relative;
+	  overflow: hidden;
+	  display: block;
+}
+.bg2 img{
+	 height: 250px;
+	 width: 100%;
+	 position: absolute;
+  
+    top: 25px;
+    right: 50px;
+    z-index: 1;
+    
+
+      
+}
+.root{
+	 position: relative;
+
+}
+.right{
+	 height: 190px;
+    width: 250px;
+    position: absolute;
+    top: 120px;
+    right: 540px;
+    display: block;
+    z-index: 1;
+
+}
+
+
+}
+@media  (max-width: 768px) {
+	.write{
+	margin-top: 220px;
+}
+
+.bg1 img{
+	  height: 250px;
+	  width: 300px;
+
+	  position: relative;
+	  overflow: hidden;
+	  display: block;
+}
+.bg2 img{
+	 height: 250px;
+	 width: 325px;
+	 position: absolute;
+  
+    top: 25px;
+    right: 50px;
+    z-index: 1;
+    
+
+      
+}
+.root{
+	 position: relative;
+
+}
+.right{
+	 height: 190px;
+    width: 150px;
+    position: absolute;
+    top: 570px;
+    right: 240px;
+    display: block;
+    z-index: 1;
+
+}
+ 
+}
+/* How does this app work End */
