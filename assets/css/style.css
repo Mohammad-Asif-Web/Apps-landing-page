@@ -79,10 +79,13 @@ body{
 
 /* Awesome apps features Start */
 .container-back{
-	background-image: url("images/pricing-bg.png");
+	 background-image: url("../../images/back.png"); 
+	 background-repeat: no-repeat;
+	 background-size: auto;
+	 background-position: left;
+	 height:auto;
 	
-	height: 400px;
-
+	
 }
 .awesome h2{
 	padding: 30px;
