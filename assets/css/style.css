@@ -44,33 +44,151 @@ ul{
 }
 p{
 	/* color: #848789; */
-	line-height: 30px;
+	line-height: 22px;
+	
 }
 
 body{
 	scroll-behavior: smooth;
-	margin: 0;
-	padding: 0;
 }
 
-/* Nav Bar section Start */
-/* Nav Bar section End */
+h1{
+	font-size: 48px;
+	color: #2e2e2e;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 700;
+	
+}
+.heading{
+	font-family: 'Rubik', sans-serif;
+	font-weight:500;
+	font-size: 36px;
+	color: #2e2e2e;
+	text-align: center;
+	padding: 80px 0px;
+}
+.para{
+	line-height: 22px;
+	color: #aaa;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+}
+.title{
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	font-family: 20px;
+}
+.Btn{
+	display: inline-block;
+	padding: 8px 42px;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50px;
+	background-image:linear-gradient(to right,#39bced , #22499c);
+	color: white;
+	border: 0;
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+}
+
+
+/*====================================== Nav Bar section Start=================================== */
+.navbar .nav-link{
+	color: #aaa;
+
+}
+.navbar .nav-link:hover{
+	color: #39bced !important;
+
+}
+.navbar-light .navbar-toggler {
+    /* color: rgba(0,0,0,.55); */
+    /* border-color: rgba(0, 0, 0,0.1 ); */
+	color: #39bced !important;
+	border-color: #39bced;
+}
+/*====================================== Nav Bar section End ====================================*/
 
 
 
 
 
 
-/* Hero section Start */
-/* Hero section End */
+/*====================================== Hero section Start =====================================*/
+.hero{
+	background-image: url(../../images/hero1.png);
+	height: 650px;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: auto;
+
+}
+
+.hero .content{
+	margin-top: 200px;
+}
+.hero .content p{
+	padding: 10px 0px;
+}
+
+.hero .image img{
+	margin-top: 90px;
+	margin-left: 100px;
+}
+
+.hidden{
+	display: none
+  }
+  
+  .sliderContainer{
+	display: flex;
+	justify-content: center
+  }
+  
+  .sliderContainer>div{
+	width: 250px;
+	height: 100px;
+	background-color: #333;
+	color: #fff;
+	font-size: 25px;
+	text-transform: capitalize
+  }
+  
+  
+  .magicStartLoop{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 1;
+	animation: op 200ms linear
+  }
+  
+  @keyframes op{
+	0%{
+	  opacity: 0
+	}
+  
+	100%{
+	  opacity: 1
+	}
+  }
+/*====================================== Hero section End=========================================== */
 
 
 
 
 
 
-/* Why use this app section Start */
-/* Why use this app section End */
+/* ====================================Why use this app section Start ============================*/
+
+
+.card:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .2)
+}
+
+/*====================================== Why use this app section End ===========================*/
 
 
 
