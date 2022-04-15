@@ -447,6 +447,12 @@ margin-top: 45px;
 
 
 /* Latest story Start */
+.story-title{
+	font-size:20px;
+	font-weight: 500;
+	padding: 10px 0px;
+
+}
 /* Latest story End */
 
 
@@ -465,6 +471,33 @@ margin-top: 45px;
 /* ===========Blog Page Details========= */
 
 /* banner -- Read from our blogs Start */
+.bolg-details{
+	background-image: url(../../images/blogd.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bolg-details .shihab{
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+
+
+
+}
+.bolg-details h3{
+	font-size: 48px;
+	font-weight: 700;
+
+}
+.bolg-details .icon{
+	color: #39bced;
+	margin: 2px 12px 0px 15px;
+}
 /* banner -- Read from our blogs End */
 
 
@@ -474,6 +507,7 @@ margin-top: 45px;
 
 
 /* Blog Posts Section Start */
+
 /* Blog Posts Section End */
 
 
