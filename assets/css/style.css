@@ -17,6 +17,34 @@
 	6. Subscribe Area
 	7. Download Area
 	8. Footer Area
+
+	Blog Post Page
+	-----------------------
+	1. Navbar
+	2. Banner
+	3.Blog Post Section
+		* Left Sidebar
+			- Blog Post
+			- Pagination
+		* Right Sidebar
+			- Search bar
+			- Recent Post
+			- Category
+			- Tags
+
+	Blog Details Page
+	-----------------------
+	1. Navbar
+	2. Banner
+	3.Blog Post Section
+		* Left Sidebar
+			- Single Blog Post
+			- Share Button
+		* Right Sidebar
+			- Search bar
+			- Recent Post
+			- Category
+			- Tags
 -----------------------------------------------------------------------------------*/
 
 
@@ -161,20 +189,15 @@ body{
 }
 .heading-color{
 	color: #393939 !important;
-}
-.blog-post .card .card-title,
-.blog-post .mybtn,
-.page-item .page-link,
-.right-sidebar h4{
-	font-weight: 700;
+	font-weight: bold;
 }
 .blog-post .card .card-title,
 .right-sidebar h4{
-	font-size: 20px;
+	font-size: 22px;
 }
 .blog-post .card .paragraph{
 	color: #484848;
-	font-size: 13.3px;
+	font-size: 15px;
 	line-height: 24px;
 }
 .blog-post .card .mybtn{
@@ -263,7 +286,7 @@ body{
 }
 .tags a{
 	text-decoration: none;
-	padding: 5px 12px;
+	padding: 5px 22px;
 	margin: 4px 3px;
 	display: inline-block;
 	border-radius: 5px;
@@ -282,11 +305,10 @@ body{
 	font-size: 16px !important;
 }
 .right-sidebar .recent-post .card-title{
-	font-size: 17px;
+	font-size: 18px;
 	line-height: 23px;
 }
-.right-sidebar .recent-post .card-subtitle{
-	font-size: 13px;
+.right-sidebar .recent-post .card-text{	
 	color: #969898 !important;
 }
 .right-sidebar hr{

@@ -1,10 +1,5 @@
 /*Blog Post Responsive Start*/
-.custom-width{
-	width: 990px;
-}
-.right-sidebar .recent-post h4,
-.right-sidebar .categories h4,
-.tags h4{
+.right-sidebar h4{
 	position: relative;
 }
 .right-sidebar .recent-post h4::after{
@@ -14,9 +9,9 @@
   border-bottom: 1px solid #3CBCED;
   position: absolute;
   top: 78%;
-  left: 35%;
+  left: 33%;
   height: 1px;
-  width: 64%;
+  width: 67%;
 }
 .right-sidebar .categories h4::after{
    content: '';
@@ -25,9 +20,9 @@
   border-bottom: 1px solid #3CBCED;
   position: absolute;
   top: 88%;
-  left: 27%;
+  left: 26%;
   height: 1px;
-  width: 72%;
+  width: 74%;
 }
 .tags h4::after{
    content: '';
@@ -36,26 +31,23 @@
   border-bottom: 1px solid #3CBCED;
   position: absolute;
   top: 88%;
-  left: 13%;
+  left: 12%;
   height: 1px;
-  width: 86%;
+  width: 88%;
 }
 @media all and (max-width: 768px){
-	.custom-width{
-		width: inherit;
-	}
 	.right-sidebar .recent-post h4::after{
-		left: 20% !important;
-		width: 80% !important;
+		left: 23% !important;
+		width: 77% !important;
 		top: 82% !important;
 	}
 	.right-sidebar .categories h4::after{
-		left: 15% !important;
-		width: 85% !important;
+		left: 18% !important;
+		width: 82% !important;
 	}
 	.tags h4::after{
-		left: 8% !important;
-		width: 92% !important;	
+		left: 9% !important;
+  		width: 91% !important;
 	}
 	.blog-post .card .paragraph{
 		font-size: 14px;
@@ -70,42 +62,49 @@
 		margin-top: 50px;
 	}
 	.right-sidebar .recent-post h4::after{
-		left: 16%;
-		width: 84%;
+		left: 17%;
+	width: 83%;
 	}
 	.right-sidebar .categories h4::after{
-		left: 11%;
-		width: 89%;
+		left: 13%;
+		width: 87%;
 	}
 	.tags h4::after{
-		left: 5%;
-		width: 95%;
+		left: 6%;
+		width: 94%;
 	}
 }
 @media all and (max-width: 384px){
 	.right-sidebar .recent-post h4::after{
-		left: 29% !important;
-		width: 71% !important;
+		left: 33% !important;
+		width: 67% !important;
 	}
 	.right-sidebar .categories h4::after{
-		left: 22% !important;
-		width: 78% !important;
+		left: 25% !important;
+		width: 75% !important;
 	}
 	.tags h4::after{
-		left: 11% !important;
-		width: 89% !important;
+		left: 12% !important;
+		width: 88% !important;
 	}
 	.blog-post .card .mybtn{
 		font-size: 14px !important;
 	}
 	.rob-man{
-	  padding: 0 10px;;
+	  padding: 0 13px !important;
 	}
-	.rob-man::before{
-		width: 105%;
-	}
+	.rob-man::before,
 	.rob-man::after{
-		width: 105%;
+		width: 106% !important;
+	}
+	.blog-post .card .card-title{
+		font-size: 20px !important;
+	}
+	.blog-post .card .paragraph{
+		font-size: 13.5px !important;
+	}
+	.right-sidebar .recent-post .card-title{
+		font-size: 18px !important;
 	}
 }
 /*Blog Post Responsive End*/
