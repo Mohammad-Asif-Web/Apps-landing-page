@@ -403,7 +403,7 @@ margin-top: 45px;
 
          
 /*--------------------------------
-				Blog Post Start
+	 Blog Post Start Sadia Haque
 --------------------------------*/
 .blog-post{
 	font-family: 'Nunito', sans-serif !important;
@@ -529,11 +529,13 @@ margin-top: 45px;
 	font-size: 18px;
 	line-height: 23px;
 }
-.right-sidebar .recent-post .card-text{	
+.right-sidebar .recent-post .card-text,
+.mytext{	
 	color: #969898 !important;
+	font-size: 16px !important;
 }
 .right-sidebar hr{
-	margin: 5px 0 !important;
+	margin: 0 0 !important;
 	width: 28px;
 }
 .right-sidebar .categories hr{
@@ -583,7 +585,7 @@ margin-top: 45px;
 	color: #bbbbbb;
 }
 /*--------------------------------
-				Blog Post End
+		Blog Post End Sadia Haque
 --------------------------------*/
 
 

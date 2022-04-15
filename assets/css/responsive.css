@@ -1,16 +1,10 @@
-<<<<<<< HEAD
+
 /*Blog Post Responsive Start*/
-.right-sidebar h4{
-=======
 
 /*Blog Post Responsive Start Sadia Haque*/
-.custom-width{
-	width: 990px;
-}
 .right-sidebar .recent-post h4,
 .right-sidebar .categories h4,
 .tags h4{
->>>>>>> d60d25ec4ef8da4c1c309f8411ab5d2e936ce1c7
 	position: relative;
 }
 .right-sidebar .recent-post h4::after{
@@ -119,7 +113,9 @@
 	}
 }
 /*Blog Post Responsive End Sadia Haque*/
-=======
+
+
+
 
 /* ---Awesome app feature start--- */
 @media only screen and (max-width: 990px) {
