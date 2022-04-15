@@ -1,4 +1,139 @@
 @media only screen and (max-width: 990px) {
+    .vertical-row {
+     width: 100%;
+    }
+    .profile-logo img{
+        width: 15%;
+        position:absolute;
+        top: 50%;
+        left: 15%;
+    }
+  }
+
+@media only screen and (max-width: 770px) {
+    .vertical-row {
+     width: 100%;
+    }
+    .profile-logo img{
+        width: 15%;
+        position:absolute;
+        top: 90%;
+        left: 15%;
+    }
+    .make-profile h3,p{
+        margin-bottom: 0;
+    }
+    .make-profile p{
+        line-height: 80%;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .vertical-row {
+     width: 100%;
+    }
+    .profile-logo img{
+        width: 4%;
+        position:absolute;
+        top: 20%;
+        left: 15%;
+    }
+  
+    .vertical-row-profile{
+        position: absolute;
+        margin-top: 2px;
+    }
+    .make-profile{
+
+        position: absolute;
+        left: 20%;
+        bottom: 0;
+        }
+
+    .make-profile h3{
+        font-size: 7px;
+    }
+    .make-profile h3,p{
+        margin-bottom: 0;
+    }
+    .make-profile p{
+
+        font-size: 5px;
+    }
+  }
+
+@media all and (max-width:500px){
+    /* Hero section Start */
+    .hero {
+
+        background-position: center;
+        background-size: cover;
+    }
+    .hero .content {
+        margin-top: 152px;
+    }
+    h1 {
+        font-size: 26px!important ;
+        
+    }
+    /* Hero section ends */
+
+}
+
+@media all and (max-width:765px){
+
+    /* Hero section Start */
+    .hero .content {
+        margin-top: 60px;
+    }
+    h1 {
+        font-size: 26px!important ;
+        
+    }
+    .hero .image img {
+        margin-left: 105px !important;
+        width: 50% !important;
+    }
+    .app .col-md-4{
+        margin-top: 15px;;
+    }
+    /* Hero section ends */
+
+   
+}
+@media all and (max-width:921px){
+
+    /* Hero section Start */
+    .hero {
+
+        background-position: center;
+        background-size: cover;
+    }
+    .hero .image img {
+        margin-left: 1px;
+        width: 100%;
+    }
+    h1 {
+        font-size: 26px;
+        
+    }
+    /* Hero section ends */
+}
+
+@media all and (max-width:1127px){
+
+    /* Hero section Start */
+    .hero .image img {
+        margin-left: 1px;
+    }
+    h1 {
+        font-size: 26px;
+        
+    }
+    /* Hero section ends */
+}
+
+
+@media only screen and (max-width: 990px) {
 	.vertical-row {
 	 width: 100%;
 	}

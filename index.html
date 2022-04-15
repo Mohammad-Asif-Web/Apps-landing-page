@@ -23,6 +23,15 @@
 	<!-- Meta Description -->
 	<meta name="description" content="160 characters">
 
+	<!--   |---------------------------|
+       |    All Fonts Here      |
+      |---------------------------| -->
+
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  
+
  <!--   |---------------------------|
        |    All Css File Here      |
       |---------------------------| -->
@@ -52,6 +61,49 @@
 -->
 
 <!-- Nav Bar section Start -->
+<section>
+	<nav class="navbar navbar-expand-lg navbar-light">
+		<div class="container">
+		  <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ms-auto">
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Features</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link"href="#">SereenShots</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">How It Work</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link"  href="#">Pricing</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Blog</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Downlode</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Link</a>
+			  </li>
+			  <li class="nav-item">
+				<a href="#" class="Btn">Try For Free</a>
+			  </li>
+				 
+			</ul>
+	
+		  </div>
+		</div>
+	</nav>
+</section>
 <!-- Nav Bar section End -->
 
 
@@ -60,6 +112,29 @@
 
 
 <!-- Hero Section Start -->
+<section class="hero">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="content">
+					<h1>Awesome Landing Page to <br> <span style="color: #39bced;" >Showcase</span> Your App</h1>
+					<p>Is amazing, modern and clean landing page for showcase <br> your app</p>
+				</div>
+				<a href="#" class="Btn">Try For Free</a>
+				</div>
+				<div class="col-md-6 image">
+					
+					<div class="sliderContainer">
+
+						<img class="magicStartLoop" src="images/hero-mobile2.png" class="img-fulid" alt="Hero Image">
+						<img class="hidden" src="images/hero-mobile.png" class="img-fulid" alt="Hero Image">
+
+					  </div>
+				</div>
+		</div>
+	</div>
+
+</section>
 <!-- Hero Section End -->
 
 
@@ -68,6 +143,43 @@
 
 	   
 <!-- Why use this app section Start -->
+<section>
+	<div class="container mt-5 mb-5">
+  
+		<h3 class="heading">Why Use This App</h3>
+		<div class="row mt-2 g-2 app">
+			<div class="col-md-4">
+				<div class="card d-flex justify-content-between p-3">
+					<div class="text-center">
+						 <img src="images/why-icon1.png" class="image-fulid" alt="why-icon-image">
+						 <h4 class="py-3">Share Your Post</h4>
+						 <p class="para">Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore</p>
+					 </div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card d-flex justify-content-between p-3">
+					<div class="text-center">
+						 <img src="images/why-icon2.png" class="image-fulid" alt="why-icon-image">
+						 <h4 class="title py-3">Share Your Post</h4>
+						 <p class="para">Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore</p>
+					 </div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card d-flex justify-content-between p-3">
+					<div class="text-center">
+						 <img src="images/why-icon3.png" class="image-fulid" alt="why-icon-image">
+						 <h4 class="py-3">Share Your Post</h4>
+						 <p >Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore</p>
+					 </div>
+				</div>
+			</div>
+		  
+	
+		</div>
+	</div>
+</section>
 <!-- Why use this app section End -->
 
 
@@ -219,6 +331,34 @@
 	<script src="./assets/js/all.min.js"></script>
 	<!-- External js  -->
 	<script src="./assets/js/app.js"></script>
+	// navbar slider
+	<script>
+		/*global $, alert, console, confirm*/
+
+		$(function () {
+			"use strict";
+			//you can put magicStartLoop class in any element you want to start with it
+		
+			//change magicStartLoop class every num of seconds
+			setInterval(function () {
+				//loop on every magicStartLoop in the page
+				$(".magicStartLoop").each(function () {
+					//after num of seconds make the first movement
+					$(this).addClass("hidden").removeClass("magicStartLoop");
+					//first movement
+					$(this).next().addClass("magicStartLoop").removeClass("hidden");
+					//check if the last element has magicStartLoop class to repeat the loop again
+					if ($(".sliderContainer").children().last().hasClass("magicStartLoop")) {
+						setTimeout(function () {
+							$(".sliderContainer").children().first().removeClass("hidden").addClass("magicStartLoop");
+						}, 2000);//you must set this time as the same time for setInterval time
+					}
+				});
+			}, 2000);//you can change the time for silder from 2000 to any value you want
+			
+			
+		});
+	</script>
 
 
 </body>
