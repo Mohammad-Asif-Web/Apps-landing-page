@@ -44,9 +44,16 @@ ul {
     margin: 0;
 }
 
+<<<<<<< HEAD
 p {
     /* color: #848789; */
     line-height: 30px;
+=======
+body{
+	scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+>>>>>>> 4518c544360039681ec5df62b87af5ea83727532
 }
 
 body {
@@ -78,6 +85,82 @@ body {
 /* Awesome apps features End */
 
 
+<<<<<<< HEAD
+=======
+.awesome h2{
+	padding: 30px;
+	text-align: center;
+}
+.awesome p{
+	padding: 0 100px;
+	text-align: center;
+}
+.img img{
+	width: 100%;
+	padding: 30px;
+}
+.angle {
+color:  #36ace1;
+background: #d7eef9;
+margin: 5px;
+border: 0;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+text-align: center;
+padding: 0px 2px;
+
+
+}
+.angle:hover{
+	color: #d7eef9;
+	background: #36ace1;
+}
+
+
+.vertical-row{
+	margin-left: 20px;
+	border-left: 1px solid #36ace1;
+	height: 28%;
+	position: relative;
+}
+.profile-logo img{
+	width: 15%;
+	position:absolute;
+	top: 20%;
+	left: 15%;
+}
+.vertical-row-profile{
+	position: absolute;
+	margin-top: 50px;
+}
+
+.vertical-row-in{
+	border: 1px solid #22499c;
+	margin-left: 20px;
+}
+.make-profile{
+
+position: absolute;
+right: 0;
+left: 40%;
+margin-top: 45px;
+}
+.make-profile h3{
+	font-weight: bold;
+}
+.make-profile h3,p{
+	text-align: justify;
+    font-size: 10px;
+	margin-bottom: 10px;
+}
+.make-profile p{
+	line-height: 100%;
+}
+
+
+
+>>>>>>> 4518c544360039681ec5df62b87af5ea83727532
 /* Apps screenshots Start */
 
 

@@ -1,3 +1,73 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* How does this app work Start */
 
 @media (max-width: 768px) {
@@ -61,4 +131,113 @@
 }
 
 
+<<<<<<< HEAD
 /* How does this app work End */
+=======
+}
+@media  (max-width: 768px) {
+	.write{
+	margin-top: 220px;
+}
+
+.bg1 img{
+	  height: 250px;
+	  width: 300px;
+
+	  position: relative;
+	  overflow: hidden;
+	  display: block;
+}
+.bg2 img{
+	 height: 250px;
+	 width: 325px;
+	 position: absolute;
+  
+    top: 25px;
+    right: 50px;
+    z-index: 1;
+    
+
+      
+}
+.root{
+	 position: relative;
+
+}
+.right{
+	 height: 190px;
+    width: 150px;
+    position: absolute;
+    top: 570px;
+    right: 240px;
+    display: block;
+    z-index: 1;
+
+}
+ 
+}
+/* How does this app work End */
+=======
+@media only screen and (max-width: 990px) {
+	.vertical-row {
+	 width: 100%;
+	}
+	.profile-logo img{
+		width: 15%;
+		position:absolute;
+		top: 50%;
+		left: 15%;
+	}
+  }
+
+@media only screen and (max-width: 770px) {
+	.vertical-row {
+	 width: 100%;
+	}
+	.profile-logo img{
+		width: 15%;
+		position:absolute;
+		top: 90%;
+		left: 15%;
+	}
+	.make-profile h3,p{
+		margin-bottom: 0;
+	}
+	.make-profile p{
+		line-height: 80%;
+	}
+  }
+  @media only screen and (max-width: 576px) {
+	.vertical-row {
+	 width: 100%;
+	}
+	.profile-logo img{
+		width: 4%;
+		position:absolute;
+		top: 20%;
+		left: 15%;
+	}
+  
+    .vertical-row-profile{
+        position: absolute;
+        margin-top: 2px;
+    }
+    .make-profile{
+
+        position: absolute;
+        left: 20%;
+        bottom: 0;
+        }
+
+    .make-profile h3{
+        font-size: 7px;
+    }
+	.make-profile h3,p{
+		margin-bottom: 0;
+	}
+	.make-profile p{
+
+		font-size: 5px;
+	}
+  }
+>>>>>>> 4518c544360039681ec5df62b87af5ea83727532
