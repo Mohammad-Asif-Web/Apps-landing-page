@@ -21,269 +21,237 @@
 
 
 /************** 1. Typography ************************/
+
 *,
 *::after,
-*::before{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	list-style: none;
-	text-decoration: none;
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
-h6, 
-a, 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
 p,
-ul{
-	margin: 0;
-}
-p{
-	/* color: #848789; */
-	line-height: 30px;
+ul {
+    margin: 0;
 }
 
-body{
-	scroll-behavior: smooth;
+p {
+    /* color: #848789; */
+    line-height: 30px;
 }
+
+body {
+    scroll-behavior: smooth;
+}
+
 
 /* Nav Bar section Start */
+
+
 /* Nav Bar section End */
 
 
-
-
-
-
 /* Hero section Start */
+
+
 /* Hero section End */
 
 
-
-
-
-
 /* Why use this app section Start */
+
+
 /* Why use this app section End */
 
 
-
-
-
-
 /* Awesome apps features Start */
+
+
 /* Awesome apps features End */
 
 
-
-
-
-
 /* Apps screenshots Start */
+
+
 /* Apps screenshots End */
 
 
-
-
-
-
-
 /* How does this app work Start */
-.write{
-	margin-top: 220px;
+
+.write {
+    margin-top: 220px;
 }
 
-.bg1 img{
-	  height: 500px;
-	  width: 600px;
-
-	  position: relative;
-	  overflow: hidden;
-	  display: block;
+.bg1 img {
+    height: 500px;
+    width: 610px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    z-index: -1;
 }
-.bg2 img{
-	 height: 500px;
-	 width: 650px;
-	 position: absolute;
-  
-    top: 50px;
-    right: 55px;
-    z-index: 1;
-    
 
-      
-}
-.root{
-	 position: relative;
-
-}
-.right{
-	 height: 400px;
-    width: 396px;
+.bg2 img {
+    height: 450px;
+    width: 600px;
     position: absolute;
-    top: 142px;
-    right: 280px;
+    display: block;
+    top: 60px;
+    right: 90px;
+}
+
+.root {
+    position: relative;
+}
+
+.right img {
+    height: 320px;
+    width: 326px;
+    position: absolute;
+    top: 132px;
+    right: 200px;
     display: block;
     z-index: 1;
-
 }
 
 
 /* How does this app work End */
 
 
-
-
-
-
-
 /* Easy Pricing plan Start */
-.card0{
-	  position: relative;
-	   overflow: hidden;
-  
-  width: 100%;
-  height: 430px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-.card1{
-	  position: relative;
-	   overflow: hidden;
-  
-  width: 100%;
-  height: 450px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-.card2{
-	  position: relative;
-	   overflow: hidden;
-  
-  width: 100%;
-  height: 480px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+.card0 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 430px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.card0 img{
-	height: 288px;
-	width: 130px;
+.card1 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 450px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-.card1 img{
-	height: 288px;
-	width: 130px;
-}
-.card2 img{
-	height: 288px;
-	width: 130px;
-}
-.txt{
-	  position: absolute;
-  
-      top: 90px;
-      right: 15px;
 
+.card2 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 480px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-.card-body h2{
 
-   background: -webkit-linear-gradient(#39bced, #22499c);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.card0 img {
+    height: 288px;
+    width: 130px;
+}
 
+.card1 img {
+    height: 288px;
+    width: 130px;
 }
-.access{
-	color: #39bced;
+
+.card2 img {
+    height: 288px;
+    width: 130px;
 }
+
+.txt {
+    position: absolute;
+    top: 90px;
+    right: 15px;
+}
+
+.card-body h2 {
+    background: -webkit-linear-gradient(#39bced, #22499c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.access {
+    color: #39bced;
+}
+
 .btn-grad {
-         	background-image: linear-gradient(to right, #39bced 0%, #3090ce  51%, #22499c  100%);
-         	border-radius: 50px;
-         
-          }
+    background-image: linear-gradient(to right, #39bced 0%, #3090ce 51%, #22499c 100%);
+    border-radius: 50px;
+}
 
 .btn-grad1 {
-         	background-color:#39bced;
-         	border-radius: 50px;
-         
-          }
+    background-color: #39bced;
+    border-radius: 50px;
+}
 
 
 /* Easy Pricing plan End */
 
 
-
-
-
-
 /* Latest story Start */
+
+
 /* Latest story End */
 
 
-
-         
-         
-
-
-
 /* Footer section Start */
+
+
 /* Footer section End */
-
-
 
 
 /* ===========Blog Page Details========= */
 
+
 /* banner -- Read from our blogs Start */
+
+
 /* banner -- Read from our blogs End */
 
 
-
-
-
-
-
 /* Blog Posts Section Start */
+
+
 /* Blog Posts Section End */
 
 
-
-
-
 /* Footer section Start */
+
+
 /* Footer section End */
-
-
 
 
 /* =============Blog Post=============== */
 
+
 /* Our Blog Details Start */
+
+
 /* Our Blog Details End */
 
 
-
-
-
-
 /* blog single post start */
+
+
 /* blog single post end */
 
 
-
-
-
 /* Related Post + Comments start */
+
+
 /* Related Post + Comments end */
 
 
-
-
-
-
-
 /* Footer section Start */
+
+
 /* Footer section End */
-
-
-
