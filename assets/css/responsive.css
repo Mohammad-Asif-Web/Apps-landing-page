@@ -1,5 +1,16 @@
+<<<<<<< HEAD
 /*Blog Post Responsive Start*/
 .right-sidebar h4{
+=======
+
+/*Blog Post Responsive Start Sadia Haque*/
+.custom-width{
+	width: 990px;
+}
+.right-sidebar .recent-post h4,
+.right-sidebar .categories h4,
+.tags h4{
+>>>>>>> d60d25ec4ef8da4c1c309f8411ab5d2e936ce1c7
 	position: relative;
 }
 .right-sidebar .recent-post h4::after{
@@ -107,4 +118,152 @@
 		font-size: 18px !important;
 	}
 }
-/*Blog Post Responsive End*/
+/*Blog Post Responsive End Sadia Haque*/
+=======
+
+/* ---Awesome app feature start--- */
+@media only screen and (max-width: 990px) {
+	.vertical-row {
+	 width: 100%;
+	}
+	.profile-logo img{
+		width: 15%;
+		position:absolute;
+		top: 50%;
+		left: 15%;
+	}
+  }
+
+@media only screen and (max-width: 770px) {
+	.vertical-row {
+	 width: 100%;
+	}
+	.profile-logo img{
+		width: 15%;
+		position:absolute;
+		top: 90%;
+		left: 15%;
+	}
+	.make-profile h3,p{
+		margin-bottom: 0;
+	}
+	.make-profile p{
+		line-height: 80%;
+	}
+  }
+  @media only screen and (max-width: 576px) {
+	.vertical-row {
+	 width: 100%;
+	}
+	.profile-logo img{
+		width: 4%;
+		position:absolute;
+		top: 20%;
+		left: 15%;
+	}
+  
+    .vertical-row-profile{
+        position: absolute;
+        margin-top: 2px;
+    }
+    .make-profile{
+
+        position: absolute;
+        left: 20%;
+        bottom: 0;
+        }
+
+    .make-profile h3{
+        font-size: 7px;
+    }
+	.make-profile h3,p{
+		margin-bottom: 0;
+	}
+	.make-profile p{
+
+		font-size: 5px;
+	}
+  }
+/* ---Awesome app feature End--- */
+
+/* How does this app work Start */
+@media  (min-width: 1414px){
+	.bg1 img{
+	  height: 250px;
+	  width: 100%;
+
+	  position: relative;
+	  overflow: hidden;
+	  display: block;
+}
+.bg2 img{
+	 height: 250px;
+	 width: 100%;
+	 position: absolute;
+  
+    top: 25px;
+    right: 50px;
+    z-index: 1;
+    
+
+      
+}
+.root{
+	 position: relative;
+
+}
+.right{
+	 height: 190px;
+    width: 250px;
+    position: absolute;
+    top: 120px;
+    right: 540px;
+    display: block;
+    z-index: 1;
+
+}
+
+
+}
+@media  (max-width: 768px) {
+	.write{
+	margin-top: 220px;
+}
+
+.bg1 img{
+	  height: 250px;
+	  width: 300px;
+
+	  position: relative;
+	  overflow: hidden;
+	  display: block;
+}
+.bg2 img{
+	 height: 250px;
+	 width: 325px;
+	 position: absolute;
+  
+    top: 25px;
+    right: 50px;
+    z-index: 1;
+    
+
+      
+}
+.root{
+	 position: relative;
+
+}
+.right{
+	 height: 190px;
+    width: 150px;
+    position: absolute;
+    top: 570px;
+    right: 240px;
+    display: block;
+    z-index: 1;
+
+}
+ 
+}
+/* How does this app work End */
