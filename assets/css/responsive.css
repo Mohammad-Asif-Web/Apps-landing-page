@@ -1,183 +1,6 @@
-
-/*Blog Post Responsive Start Sadia Haque*/
-.custom-width{
-	width: 990px;
-}
-.right-sidebar .recent-post h4,
-.right-sidebar .categories h4,
-.tags h4{
-	position: relative;
-}
-.right-sidebar .recent-post h4::after{
-  content: '';
-  display: block;
-  clear: both;
-  border-bottom: 1px solid #3CBCED;
-  position: absolute;
-  top: 78%;
-  left: 35%;
-  height: 1px;
-  width: 64%;
-}
-.right-sidebar .categories h4::after{
-   content: '';
-  display: block;
-  clear: both;
-  border-bottom: 1px solid #3CBCED;
-  position: absolute;
-  top: 88%;
-  left: 27%;
-  height: 1px;
-  width: 72%;
-}
-.tags h4::after{
-   content: '';
-  display: block;
-  clear: both;
-  border-bottom: 1px solid #3CBCED;
-  position: absolute;
-  top: 88%;
-  left: 13%;
-  height: 1px;
-  width: 86%;
-}
-@media all and (max-width: 768px){
-	.custom-width{
-		width: inherit;
-	}
-	.right-sidebar .recent-post h4::after{
-		left: 20% !important;
-		width: 80% !important;
-		top: 82% !important;
-	}
-	.right-sidebar .categories h4::after{
-		left: 15% !important;
-		width: 85% !important;
-	}
-	.tags h4::after{
-		left: 8% !important;
-		width: 92% !important;	
-	}
-	.blog-post .card .paragraph{
-		font-size: 14px;
-		line-height: 28px;
-	}
-	.pagination{
-		justify-content: center !important;
-	}
-}
-@media all and (max-width: 988px){
-	.margin{
-		margin-top: 50px;
-	}
-	.right-sidebar .recent-post h4::after{
-		left: 16%;
-		width: 84%;
-	}
-	.right-sidebar .categories h4::after{
-		left: 11%;
-		width: 89%;
-	}
-	.tags h4::after{
-		left: 5%;
-		width: 95%;
-	}
-}
-@media all and (max-width: 384px){
-	.right-sidebar .recent-post h4::after{
-		left: 29% !important;
-		width: 71% !important;
-	}
-	.right-sidebar .categories h4::after{
-		left: 22% !important;
-		width: 78% !important;
-	}
-	.tags h4::after{
-		left: 11% !important;
-		width: 89% !important;
-	}
-	.blog-post .card .mybtn{
-		font-size: 14px !important;
-	}
-	.rob-man{
-	  padding: 0 10px;;
-	}
-	.rob-man::before{
-		width: 105%;
-	}
-	.rob-man::after{
-		width: 105%;
-	}
-}
-/*Blog Post Responsive End Sadia Haque*/
-
-
-/* ---Awesome app feature start--- */
-@media only screen and (max-width: 990px) {
-    .vertical-row {
-     width: 100%;
-    }
-    .profile-logo img{
-        width: 15%;
-        position:absolute;
-        top: 50%;
-        left: 15%;
-    }
-  }
-
-@media only screen and (max-width: 770px) {
-    .vertical-row {
-     width: 100%;
-    }
-    .profile-logo img{
-        width: 15%;
-        position:absolute;
-        top: 90%;
-        left: 15%;
-    }
-    .make-profile h3,p{
-        margin-bottom: 0;
-    }
-    .make-profile p{
-        line-height: 80%;
-    }
-  }
-  @media only screen and (max-width: 576px) {
-    .vertical-row {
-     width: 100%;
-    }
-    .profile-logo img{
-        width: 4%;
-        position:absolute;
-        top: 20%;
-        left: 15%;
-    }
-  
-    .vertical-row-profile{
-        position: absolute;
-        margin-top: 2px;
-    }
-    .make-profile{
-
-        position: absolute;
-        left: 20%;
-        bottom: 0;
-        }
-
-    .make-profile h3{
-        font-size: 7px;
-    }
-    .make-profile h3,p{
-        margin-bottom: 0;
-    }
-    .make-profile p{
-
-        font-size: 5px;
-    }
-  }
-
+/*======= Hero section Start =====*/
 @media all and (max-width:500px){
-    /* Hero section Start */
+    
     .hero {
 
         background-position: center;
@@ -187,22 +10,16 @@
         margin-top: 152px;
     }
     h1 {
-        font-size: 26px!important ;
-        
+        font-size: 26px!important ;   
     }
-    /* Hero section ends */
-
 }
 
 @media all and (max-width:765px){
-
-    /* Hero section Start */
     .hero .content {
         margin-top: 60px;
     }
     h1 {
         font-size: 26px!important ;
-        
     }
     .hero .image img {
         margin-left: 105px !important;
@@ -211,13 +28,8 @@
     .app .col-md-4{
         margin-top: 15px;;
     }
-    /* Hero section ends */
-
-   
 }
 @media all and (max-width:921px){
-
-    /* Hero section Start */
     .hero {
 
         background-position: center;
@@ -231,12 +43,9 @@
         font-size: 26px;
         
     }
-    /* Hero section ends */
 }
 
 @media all and (max-width:1127px){
-
-    /* Hero section Start */
     .hero .image img {
         margin-left: 1px;
     }
@@ -244,10 +53,11 @@
         font-size: 26px;
         
     }
-    /* Hero section ends */
+    
 }
+/*======= Hero section ends ========*/
 
-
+/* Awesome app Start Oytizo */
 @media only screen and (max-width: 990px) {
 	.vertical-row {
 	 width: 100%;
@@ -310,91 +120,204 @@
 		font-size: 5px;
 	}
   }
-/* ---Awesome app feature End--- */
+/* Awesome app End Oytizo */
 
-/* How does this app work Start */
-@media  (min-width: 1414px){
-	.bg1 img{
-	  height: 250px;
-	  width: 100%;
-
-	  position: relative;
-	  overflow: hidden;
-	  display: block;
+/* how does this app start Omar*/
+@media (max-width: 768px) {
+    .bg1 img {
+        height: 250px;
+        width: 300px;
+        position: relative;
+        overflow: hidden;
+        display: block;
+    }
+    .bg2 img {
+        height: 250px;
+        width: 325px;
+        position: absolute;
+        top: 15px;
+        right: 220px;
+        z-index: 1;
+    }
+    .root {
+        position: relative;
+    }
+    .right img {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 40px;
+        right: 280px;
+        display: block;
+        z-index: 1;
+    }
 }
-.bg2 img{
-	 height: 250px;
-	 width: 100%;
-	 position: absolute;
-  
-    top: 25px;
-    right: 50px;
-    z-index: 1;
-    
-
-      
+@media (max-width: 576px){
+    .awork{
+        margin-top: 800px;
+    }
 }
-.root{
-	 position: relative;
-
+@media (max-width: 342px){
+    .awork{
+        margin-top: 1200px;
+    }
 }
-.right{
-	 height: 190px;
-    width: 250px;
-    position: absolute;
-    top: 120px;
-    right: 540px;
-    display: block;
-    z-index: 1;
-
+@media (max-width: 296px){
+    .awork{
+        margin-top: 2000px;
+    }
 }
 
-
+@media (max-width: 1100px) {
+    .bg1 img {
+        height: 300px;
+        width: 400px;
+        position: relative;
+        overflow: hidden;
+        display: block;
+    }
+    .bg2 img {
+        height: 350px;
+        width: 425px;
+        position: absolute;
+        top: 15px;
+        right: 90px;
+        z-index: 1;
+    }
+    .root {
+        position: relative;
+    }
+    .right img {
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        top: 40px;
+        right: 150px;
+        display: block;
+        z-index: 1;
+    }
 }
-@media  (max-width: 768px) {
-	.write{
-	margin-top: 220px;
-}
+/* how does this app start Omar */
 
-.bg1 img{
-	  height: 250px;
-	  width: 300px;
+/* Easy pricing start Omar */
 
-	  position: relative;
-	  overflow: hidden;
-	  display: block;
-}
-.bg2 img{
-	 height: 250px;
-	 width: 325px;
-	 position: absolute;
-  
-    top: 25px;
-    right: 50px;
-    z-index: 1;
-    
+/* Easy pricing End Omar */
 
-      
-}
-.root{
-	 position: relative;
+/*Blog Post Responsive Start Sadia Haque*/
 
+.right-sidebar .recent-post h4,
+.right-sidebar .categories h4,
+.tags h4{
+	position: relative;
 }
-.right{
-	 height: 190px;
-    width: 150px;
-    position: absolute;
-    top: 570px;
-    right: 240px;
-    display: block;
-    z-index: 1;
+.right-sidebar .recent-post h4::after{
+  content: '';
+  display: block;
+  clear: both;
+  border-bottom: 1px solid #3CBCED;
+  position: absolute;
+  top: 78%;
+  left: 33%;
+  height: 1px;
+  width: 67%;
+}
+.right-sidebar .categories h4::after{
+   content: '';
+  display: block;
+  clear: both;
+  border-bottom: 1px solid #3CBCED;
+  position: absolute;
+  top: 88%;
+  left: 26%;
+  height: 1px;
+  width: 74%;
+}
+.tags h4::after{
+   content: '';
+  display: block;
+  clear: both;
+  border-bottom: 1px solid #3CBCED;
+  position: absolute;
+  top: 88%;
+  left: 12%;
+  height: 1px;
+  width: 88%;
+}
+@media all and (max-width: 768px){
+	.right-sidebar .recent-post h4::after{
+		left: 23% !important;
+		width: 77% !important;
+		top: 82% !important;
+	}
+	.right-sidebar .categories h4::after{
+		left: 18% !important;
+		width: 82% !important;
+	}
+	.tags h4::after{
+		left: 9% !important;
+  		width: 91% !important;
+	}
+	.blog-post .card .paragraph{
+		font-size: 14px;
+		line-height: 28px;
+	}
+	.pagination{
+		justify-content: center !important;
+	}
+}
+@media all and (max-width: 988px){
+	.margin{
+		margin-top: 50px;
+	}
+	.right-sidebar .recent-post h4::after{
+		left: 17%;
+		width: 83%;
+	}
+	.right-sidebar .categories h4::after{
+		left: 13%;
+		width: 87%;
+	}
+	.tags h4::after{
+		left: 6%;
+		width: 94%;
+	}
+}
+@media all and (max-width: 384px){
+	.right-sidebar .recent-post h4::after{
+		left: 33% !important;
+		width: 67% !important;
+	}
+	.right-sidebar .categories h4::after{
+		left: 25% !important;
+		width: 75% !important;
+	}
+	.tags h4::after{
+		left: 12% !important;
+		width: 88% !important;
+	}
+	.blog-post .card .mybtn{
+		font-size: 14px !important;
+	}
+	.rob-man{
+	  padding: 0 13px !important;
+	}
+	.rob-man::before,
+	.rob-man::after{
+		width: 106% !important;
+	}
+	.blog-post .card .card-title{
+		font-size: 20px !important;
+	}
+	.blog-post .card .paragraph{
+		font-size: 13.5px !important;
+	}
+	.right-sidebar .recent-post .card-title{
+		font-size: 18px !important;
+	}
+}
+/*Blog Post Responsive End Sadia Haque*/
 
-}
- 
-}
-/* How does this app work End */
-
-/* Related post Start */
+/* Related post and comments Start Asif */
 @media only screen and  (max-width:1400px){
 	#carouselExampleControls.carousel{
 		width: 725px;
@@ -538,10 +461,4 @@
         width: 270px;
     }
 }
-/* Related post End */
-
-
-
-
-
-
+/* Related post and comments End Asif*/
