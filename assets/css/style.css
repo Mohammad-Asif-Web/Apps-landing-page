@@ -721,8 +721,61 @@ margin-top: 45px;
 
 
 /* Related Post + Comments start */
-/* Related Post + Comments end */
+.related .carousel{
+	width: 830px;
+	height: auto;
+	padding: 10px 0;
+	/* background: gray; */
+}
 
+.related .carousel-bet{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.carousel .carousel-item img{
+	transform: translate(0);
+	min-width: 400px;
+	width: 100%;
+	height: 200px;
+}
+.inner-span{
+	display: flex;
+	justify-content: space-between;
+	width: 250px;
+}
+.carousel-control-prev,
+.carousel-control-next{
+	background: #3CBCED;
+	position: absolute;
+	top: 100%;
+	bottom: -30px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.carousel-control-prev{
+	left: 42%;
+}
+.carousel-control-next{
+	right: 42%;
+}
+
+/* Related Post + Comments end */
+.comment{
+	width: 800px;
+	height: auto;
+	padding: 10px 0;
+}
+.comment .row .span{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: #d7d7d7;
+}
+.comment small{
+	color: #00baff;
+}
 
 
 

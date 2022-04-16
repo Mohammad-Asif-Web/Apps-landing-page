@@ -393,3 +393,155 @@
  
 }
 /* How does this app work End */
+
+/* Related post Start */
+@media only screen and  (max-width:1400px){
+	#carouselExampleControls.carousel{
+		width: 725px;
+	}
+	#carouselExampleControls.carousel .carousel-item img {
+        min-width: 345px;
+    }
+    .cm-section .comment{
+        width: 725px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    #carouselExampleControls.carousel{
+        width: 615px;
+    }
+    #carouselExampleControls.carousel .carousel-item img {
+        min-width: 295px;
+    }
+    .cm-section .comment{
+        width: 615px;
+    }
+    .cm-section .comment .row .span {
+        width: 80px;
+        height: 80px;
+    }
+}
+@media only screen and (max-width: 990px){
+    #carouselExampleControls.carousel {
+        width: 685px;
+    }
+    #carouselExampleControls.carousel .carousel-item img {
+        min-width: 330px;
+    }
+    .cm-section .comment{
+        width: 685px;
+    }
+}
+@media only screen and (max-width: 768px){
+    #carouselExampleControls.carousel {
+        width: 525px;
+    }
+    .carousel-bet{
+        gap: 20px;
+    }
+    #carouselExampleControls.carousel .carousel-item img {
+        min-width: 250px;
+        height: 150px;
+    }
+    .inner-span {
+        flex-direction: column;
+    }
+    button.carousel-control-prev,
+    button.carousel-control-next{
+        width: 30px;
+        height: 30px;
+    }
+    .cm-section .comment{
+        width: 525px;
+    }
+    .cm-section .comment .row .span{
+        width: 60px;
+        height: 60px;
+    }
+}
+@media only screen and (max-width: 570px){
+    .related{
+        overflow: hidden;
+    }
+    #carouselExampleControls.carousel .carousel-bet {
+        width: 90%;
+    }
+    #carouselExampleControls.carousel .carousel-item img {
+        min-width: 223px;
+        height: 130px;
+    }
+    button.carousel-control-prev{
+        left: 37%;
+    }
+    button.carousel-control-next{
+        right: 47%;
+    }
+    .cm-section .comment {
+        width: 450px;
+        margin-left: 10px;
+    }
+    .cm-section .comment .row .col-sm-2,
+    .col-sm-2.circle{
+        margin-bottom: 20px;
+    }
+
+}
+@media only screen and (max-width: 425px){
+    #carouselExampleControls.carousel .carousel-bet {
+        width: 75%;
+    }
+    #carouselExampleControls.carousel .carousel-item img {
+        min-width: 185px;
+        height: 100px;
+    }
+    button.carousel-control-prev{
+        left: 30%;
+    }
+    button.carousel-control-next{
+        right: 55%;
+    }
+    .cm-section .comment {
+        width: 350px;
+    }
+}
+@media only screen and (max-width: 375px){
+    #carouselExampleControls.carousel .carousel-bet {
+        width: 66%;
+    }
+    #carouselExampleControls.carousel .carousel-item img {
+        min-width: 150px;
+    }
+    button.carousel-control-prev{
+        left: 25%;
+    }
+    button.carousel-control-next{
+        right: 60%;
+    }
+    .cm-section .comment {
+        width: 320px;
+    }
+}
+@media only screen and (max-width: 320px){
+    #carouselExampleControls.carousel .carousel-bet {
+        width: 56%;
+    }
+    #carouselExampleControls.carousel .carousel-item img {
+        min-width: 135px;
+    }
+    button.carousel-control-prev{
+        left: 21%;
+    }
+    button.carousel-control-next{
+        right: 65%;
+    }
+    .cm-section .comment {
+        width: 270px;
+    }
+}
+/* Related post End */
+
+
+
+
+
+
