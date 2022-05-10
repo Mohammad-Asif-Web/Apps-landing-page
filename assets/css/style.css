@@ -390,6 +390,126 @@ margin-top: 45px;
 
 /* Footer Start Zilani */
 
+footer{
+	margin: 0;
+	width: 100vw;
+	background: #F9F9FA;
+    position:absolute;
+    transform:translate(0%,0%);  
+}
+footer p{
+	font-family: 'Nunito', sans-serif;
+	font-size: 11px;
+	text-align: center;
+	overflow: hidden;
+	line-height: 18px;
+}
+footer .with-bg{
+	margin: 0;
+	padding-top: 30px;
+	width: 100vw;
+    position:absolute;
+	background-image: linear-gradient(to bottom, #00baff 0%, #0af 21%, #133272 150%);
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
+	border-top-left-radius: 50% 20%;
+	border-top-right-radius: 50% 20%;
+}
+/*footer section for homepage*/
+.downapp{
+	width: 100%;
+	background: white;
+	display: flex;
+	text-align: center;
+}
+.downapp h5{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	padding: 15px 0;
+}
+.downapp h6{
+	font-family: 'Rubik', sans-serif;
+	font-size: 17px;
+	background: -webkit-linear-gradient(left, #00baff 0%, #0af 21%, #133272 60%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.downapp img {
+	width: 100%;
+	padding: 20px;
+}
+.fontAwesome {
+  font-family: 'Helvetica', FontAwesome, sans-serif;
+}
+
+
+/*end of homepage footer*/
+
+/*starting common footer*/
+.with-bg .logo2{
+	text-align: center;	
+	
+}
+.with-bg .logo2 img{
+	width: 100%;
+}
+
+.with-bg .socio-txt{
+	color: #ffffff;	
+}
+.with-bg .social{
+	padding: 15px 3px 10px 3px;
+}
+footer ul li a{
+	color: white;
+}
+.footer-btm{
+	font-family: "Nunito Regular";
+	margin: 0;
+	padding: 10px 0;
+	border-top: 1px solid;
+	color: #a2a3a3;
+	font-weight: bold;
+	text-align: center;
+}
+.footer-btm span{
+	color: white;
+}
+/*end of common footer*/
+
+/*start of blog post&blog page details footer*/
+
+.vlog{
+	padding: 50px 20px 5px 20px;
+	background: #F9F9FA;
+}
+
+.vlog-up h3{
+	font-family: 'Rubik', sans-serif;
+	padding: 10px 0;
+	font-weight: bold;	
+}
+.vlog-up p{
+	line-height: 15px;
+	font-size: 12px;
+	padding: 5px;
+
+}
+.vlog-down .input-group input{
+	line-height: 3;
+	font-size: 12px;
+	border: 1px solid #3090CE;
+	border-radius: 30px !important;
+}
+.vlog-down button span{
+	background-image: linear-gradient(to right, #00baff 0%, #0af 21%, #133272 150%);
+	border-radius:20px ;
+	padding: 6px 25px;
+}
+#button-addon2{
+	z-index:9;
+}
+
 /* Footer End Zilani */
 
 

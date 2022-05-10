@@ -200,8 +200,23 @@
 /* how does this app start Omar */
 
 /* Easy pricing start Omar */
-
 /* Easy pricing End Omar */
+
+/* footer Start Zilani */
+@media screen and (max-width: 500px) {
+    footer .input-group {
+      display: none;
+    }
+    footer .with-bg .logo2{
+      width: 30%;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    footer .with-bg .logo2{
+      width: 40%;
+    }
+  }
+/* Footer End Zilani */
 
 /*Blog Post Responsive Start Sadia Haque*/
 
